@@ -1,0 +1,43 @@
+.loader {
+  position: relative;
+  width: 50%;
+  height: 100vh;
+  margin: auto;
+}
+.box {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  top: 50%;
+  left: 40%;
+  animation: bounce 1s infinite ease-in-out;
+}
+.box div {
+  width: 100%;
+  height: 100%;
+  background: #4caf50;
+  border-radius: 50%;
+}
+.ground {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20%;
+  background: rgba(0, 0, 0, 0.1);
+}
+.ground div {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+}

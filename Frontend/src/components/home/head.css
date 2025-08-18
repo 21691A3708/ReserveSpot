@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+  .mainsection {
+    grid-template-columns: 1fr; /* Stack columns in a single column on small screens */
+  }
+
+  .anotherside {
+    grid-template-columns: 1fr; /* Stack address, menu, and contact in one column */
+  }
+
+  .menu,
+  .phone,
+  .socialmedia {
+    width: 100%; /* Ensure the columns are full width on smaller screens */
+  }
+}
