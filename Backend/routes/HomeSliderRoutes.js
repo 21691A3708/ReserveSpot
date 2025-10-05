@@ -11,7 +11,7 @@ const {
 router.get("/", HomeSliderSummaries);
 router.put("/update-image/:id", updateProject);
 router.get("/home", async (req, res) => {
-  console.log("home tester")
+  console.log("home tester");
   try {
     const homeData = await Home.findOne(); // assuming only one document
     if (!homeData)
@@ -95,7 +95,5 @@ router.patch("/home", async (req, res) => {
     res.status(400).json({ message: "Failed to update home data", error });
   }
 });
-
-module.exports = router;
 
 module.exports = router;

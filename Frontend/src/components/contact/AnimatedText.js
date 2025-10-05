@@ -15,8 +15,7 @@ const AnimatedText = ({ text }) => {
             animationDelay: `${index * 0.2}s`,
             animationFillMode: "forwards",
             animationTimingFunction: "ease-out",
-          }}
-        >
+          }}>
           {char === " " ? "\u00A0" : char}
         </span>
       ))}

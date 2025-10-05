@@ -427,7 +427,7 @@
 // //             fontFamily: "'Grande', 'sans-serif'",
 // //           }}
 // //         >
-// //           <Amination text="LUXITALIA" />
+// //           <Amination text="ReserveSpot" />
 // //         </h1>
 
 // //         <p
@@ -456,7 +456,7 @@
 // //             fontFamily: "'Grande', 'sans-serif'",
 // //           }}
 // //         >
-// //           LUXITALIA
+// //           ReserveSpot
 // //         </h5>
 // //       </div>
 
@@ -968,7 +968,7 @@
 //             fontFamily: "'Grande', 'sans-serif'",
 //           }}
 //         >
-//           <Amination text="LUXITALIA" />
+//           <Amination text="ReserveSpot" />
 //         </h1>
 
 //         <p
@@ -997,7 +997,7 @@
 //             fontFamily: "'Grande', 'sans-serif'",
 //           }}
 //         >
-//           LUXITALIA
+//           ReserveSpot
 //         </h5>
 //       </div>
 
@@ -1208,8 +1208,7 @@ export default function Slider({ data }) {
           width: "100%",
           height: "100vh",
           overflow: "hidden",
-        }}
-      >
+        }}>
         <div
           style={{
             display: "flex",
@@ -1217,8 +1216,7 @@ export default function Slider({ data }) {
             width: `${projects.length * 100}vw`,
             transform: `translateX(-${currentIndex * 100}vw)`,
             transition: "transform 1s ease-in-out",
-          }}
-        >
+          }}>
           {projects.map((proj) => (
             <div
               key={proj.id}
@@ -1227,12 +1225,10 @@ export default function Slider({ data }) {
                 height: "100vh",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
-              }}
-            >
+              }}>
               <Link
                 to={`/mprojects/${proj.id}`}
-                style={{ height: "100%", cursor: "pointer" }}
-              >
+                style={{ height: "100%", cursor: "pointer" }}>
                 {proj.image?.url && (
                   <img
                     src={proj.image.url}
@@ -1263,12 +1259,10 @@ export default function Slider({ data }) {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          key={current.id}
-        >
+          key={current.id}>
           <Link
             to={`/mprojects/${current.id}`}
-            style={{ color: "white", textDecoration: "none" }}
-          >
+            style={{ color: "white", textDecoration: "none" }}>
             <strong>
               {current.title}
               <br />
@@ -1294,12 +1288,10 @@ export default function Slider({ data }) {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            key={`${current.id}_next`}
-          >
+            key={`${current.id}_next`}>
             <Link
               to={`/mprojects/${next.id}`}
-              style={{ color: "inherit", textDecoration: "none" }}
-            >
+              style={{ color: "inherit", textDecoration: "none" }}>
               <strong>
                 {next.title}
                 <br />
@@ -1328,8 +1320,7 @@ export default function Slider({ data }) {
               border: "none",
               borderRadius: "5px",
               cursor: "pointer",
-            }}
-          >
+            }}>
             Update Image
           </button>
         )}
@@ -1343,8 +1334,7 @@ export default function Slider({ data }) {
             transform: "translateX(-50%)",
             display: "flex",
             gap: "10px",
-          }}
-        >
+          }}>
           {projects.map((_, i) => (
             <div
               key={i}
@@ -1383,9 +1373,8 @@ export default function Slider({ data }) {
             left: "33%",
             color: "white",
             fontFamily: "'Grande', 'sans-serif'",
-          }}
-        >
-          <Amination text="LUXITALIA" />
+          }}>
+          <Amination text="ReserveSpot" />
         </h1>
         <p
           onClick={() => navigate("/mprojects")}
@@ -1395,8 +1384,7 @@ export default function Slider({ data }) {
             left: "1%",
             color: "white",
             cursor: "pointer",
-          }}
-        >
+          }}>
           VIEW ALL
         </p>
         <h5
@@ -1406,9 +1394,8 @@ export default function Slider({ data }) {
             left: "0%",
             padding: "10px",
             color: "white",
-          }}
-        >
-          LUXITALIA
+          }}>
+          ReserveSpot
         </h5>
       </div>
 
@@ -1441,8 +1428,7 @@ export default function Slider({ data }) {
             zIndex: 10,
             width: "90%",
             maxWidth: "400px",
-          }}
-        >
+          }}>
           <h2>Update Project</h2>
           <img
             src={selectedProject.image.url}
@@ -1483,8 +1469,7 @@ export default function Slider({ data }) {
               padding: "10px",
               backgroundColor: "#4CAF50",
               color: "white",
-            }}
-          >
+            }}>
             {isLoading ? "Updating..." : "Update"}
           </button>
           <button
@@ -1493,8 +1478,7 @@ export default function Slider({ data }) {
               padding: "10px",
               backgroundColor: "#f44336",
               color: "white",
-            }}
-          >
+            }}>
             Cancel
           </button>
           {errorMessage && (

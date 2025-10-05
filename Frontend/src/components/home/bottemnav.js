@@ -121,8 +121,7 @@ export default function Bottemnav({ data, refreshData }) {
         overflow: "hidden",
         wordWrap: "break-word",
         boxSizing: "border-box",
-      }}
-    >
+      }}>
       <div className="tittle" style={{ width: "46%", padding: "2% 0 0 2%" }}>
         <h1
           style={{
@@ -133,9 +132,8 @@ export default function Bottemnav({ data, refreshData }) {
             overflow: "hidden",
             wordWrap: "break-word",
             boxSizing: "border-box",
-          }}
-        >
-          <Animation text="LUXITALIA" />
+          }}>
+          <Animation text="ReserveSpot" />
         </h1>
       </div>
       <div className="anotherside" style={{ width: "46%", padding: "2%" }}>
@@ -145,8 +143,7 @@ export default function Bottemnav({ data, refreshData }) {
         <div style={{ display: "flex", height: "80%" }}>
           <div
             className="menu"
-            style={{ width: "30%", display: "flex", flexDirection: "column" }}
-          >
+            style={{ width: "30%", display: "flex", flexDirection: "column" }}>
             <p style={{ color: "rgb(157, 154, 140)" }}>MENU</p>
             <span>
               <Link to="/" style={{ textDecoration: "none", color: "black" }}>
@@ -156,24 +153,21 @@ export default function Bottemnav({ data, refreshData }) {
             <span>
               <Link
                 to="/about"
-                style={{ textDecoration: "none", color: "black" }}
-              >
+                style={{ textDecoration: "none", color: "black" }}>
                 About
               </Link>
             </span>
             <span>
               <Link
                 to="/projects"
-                style={{ textDecoration: "none", color: "black" }}
-              >
+                style={{ textDecoration: "none", color: "black" }}>
                 Projects
               </Link>
             </span>
             <span>
               <Link
                 to="/contact"
-                style={{ textDecoration: "none", color: "black" }}
-              >
+                style={{ textDecoration: "none", color: "black" }}>
                 Contact
               </Link>
             </span>
@@ -195,8 +189,7 @@ export default function Bottemnav({ data, refreshData }) {
                 border: "none",
                 color: "black",
                 cursor: "pointer",
-              }}
-            >
+              }}>
               <span>INSTAGRAM</span>
             </button>
             <button
@@ -206,8 +199,7 @@ export default function Bottemnav({ data, refreshData }) {
                 border: "none",
                 color: "black",
                 cursor: "pointer",
-              }}
-            >
+              }}>
               <span>FACEBOOK</span>
             </button>
             <button
@@ -217,8 +209,7 @@ export default function Bottemnav({ data, refreshData }) {
                 border: "none",
                 color: "black",
                 cursor: "pointer",
-              }}
-            >
+              }}>
               <span>TWITTER</span>
             </button>
           </div>
@@ -238,8 +229,7 @@ export default function Bottemnav({ data, refreshData }) {
             border: "none",
             cursor: "pointer",
           }}
-          title="Edit Info"
-        >
+          title="Edit Info">
           ✏️
         </button>
       )}
@@ -258,8 +248,7 @@ export default function Bottemnav({ data, refreshData }) {
             justifyContent: "center",
             alignItems: "center",
             zIndex: 1000,
-          }}
-        >
+          }}>
           <div
             style={{
               backgroundColor: "#fff",
@@ -270,8 +259,7 @@ export default function Bottemnav({ data, refreshData }) {
               height: "85%",
               scale: "1.2",
               overflowY: "auto",
-            }}
-          >
+            }}>
             <h3>Edit Footer Info</h3>
 
             {/* Contact Info */}
@@ -341,8 +329,7 @@ export default function Bottemnav({ data, refreshData }) {
                 display: "flex",
                 justifyContent: "flex-end",
                 gap: "10px",
-              }}
-            >
+              }}>
               <button
                 onClick={handleUpdate}
                 style={{
@@ -351,8 +338,7 @@ export default function Bottemnav({ data, refreshData }) {
                   color: "#fff",
                   border: "none",
                   cursor: "pointer",
-                }}
-              >
+                }}>
                 Save
               </button>
               <button
@@ -363,8 +349,7 @@ export default function Bottemnav({ data, refreshData }) {
                   color: "#fff",
                   border: "none",
                   cursor: "pointer",
-                }}
-              >
+                }}>
                 Cancel
               </button>
             </div>

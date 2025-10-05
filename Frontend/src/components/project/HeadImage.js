@@ -15,8 +15,7 @@ export default function HeadImage({ items }) {
         backgroundImage: `url(${items.imageUrl})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-      }}
-    >
+      }}>
       <div
         className="headerdiv"
         style={{
@@ -30,9 +29,8 @@ export default function HeadImage({ items }) {
           fontSize: "1rem",
           padding: "1rem",
           fontFamily: "'Grande', 'sans-serif'",
-        }}
-      >
-        LUXITALIA
+        }}>
+        ReserveSpot
       </div>
       <div
         className="tittlediv"
@@ -43,8 +41,7 @@ export default function HeadImage({ items }) {
           color: "white",
           display: "flex",
           flexDirection: "row",
-        }}
-      >
+        }}>
         <div
           style={{
             width: "15%",
@@ -57,8 +54,7 @@ export default function HeadImage({ items }) {
             padding: "1rem",
             fontSize: "1rem",
             fontFamily: "'Grande', 'sans-serif'",
-          }}
-        >
+          }}>
           №0001
         </div>
         <div
@@ -74,8 +70,7 @@ export default function HeadImage({ items }) {
             padding: "1rem",
             boxSizing: "border-box",
             overflow: "hidden",
-          }}
-        >
+          }}>
           <h1
             style={{
               fontSize: "5rem",
@@ -83,8 +78,7 @@ export default function HeadImage({ items }) {
               height: "100%",
               fontFamily: "'Grande', 'sans-serif'",
               textAlign: "center",
-            }}
-          >
+            }}>
             <Animation text={items.title} /> {/* Use the Animation component */}
             {/* {items.title} */}
           </h1>
@@ -101,8 +95,7 @@ export default function HeadImage({ items }) {
           flexDirection: "row",
           justifyContent: "space-between",
           alignItems: "center",
-        }}
-      >
+        }}>
         <div style={{ width: "20%", height: "100%" }}></div>
         <div
           style={{
@@ -118,8 +111,7 @@ export default function HeadImage({ items }) {
             overflow: "hidden",
             boxSizing: "border-box",
             padding: "3%",
-          }}
-        >
+          }}>
           <Animaction2 text={items.address} />{" "}
           {/* Use the Animation component */}
           {/* {items.address} */}

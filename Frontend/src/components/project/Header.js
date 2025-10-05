@@ -12,8 +12,7 @@ export default function Header() {
         display: "flex",
         flexDirection: "column",
         padding: "2%",
-      }}
-    >
+      }}>
       <div
         className="subdiv"
         style={{
@@ -21,8 +20,7 @@ export default function Header() {
           flexDirection: "column",
           height: "100%",
           width: "100%",
-        }}
-      >
+        }}>
         <div
           className="lix"
           style={{
@@ -32,10 +30,9 @@ export default function Header() {
             display: "flex",
             justifyContent: "start",
             alignItems: "start",
-          }}
-        >
+          }}>
           <h4 style={{ color: "black", fontFamily: "'Grande', 'sans-serif'" }}>
-            LUXITALIA
+            ReserveSpot
           </h4>
         </div>
         <div
@@ -48,8 +45,7 @@ export default function Header() {
             alignItems: "center",
             fontSize: "7rem",
             fontFamily: "'Grande', 'sans-serif'",
-          }}
-        >
+          }}>
           <Animation text="PROJECTS" />
         </div>
       </div>

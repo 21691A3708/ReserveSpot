@@ -8,8 +8,7 @@ export default function footer() {
         width: "100%",
         height: "6vh",
         // background: "blue",
-      }}
-    >
+      }}>
       <div
         className="subdiv"
         style={{
@@ -24,14 +23,13 @@ export default function footer() {
           textAlign: "start",
           backgroundColor: "rgb(0, 43, 0)",
           color: "white",
-        }}
-      >
+        }}>
         <div
           className="data1"
           style={{ width: "50vw" }}
           // style={{ flex: 2, backgroundColor: "rgb(0, 43, 0)", color: "white" }}
         >
-          <p>ALL RIGHTS RESERVED ©LUXITALIA</p>
+          <p>ALL RIGHTS RESERVED ©ReserveSpot</p>
         </div>
         <div
           className="data2"
@@ -48,8 +46,7 @@ export default function footer() {
             // fontWeight: "bold",
             // textAlign: "center",
             // padding: "0px 10px",
-          }}
-        >
+          }}>
           <div>
             <p>34°3'44"N </p>
           </div>
@@ -71,8 +68,7 @@ export default function footer() {
             // display: "flex",
             // flexDirection: "column",
             // justifyContent: "center",
-          }}
-        >
+          }}>
           <div style={{ padding: "0px 20%" }}>
             <p style={{ textAlign: "end", padding: "0,50%" }}>
               Permit Number - 229120192

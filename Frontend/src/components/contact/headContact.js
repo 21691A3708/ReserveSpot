@@ -1,5 +1,6 @@
 import React from "react";
 import AnimatedText from "../utils/AnimatedText";
+
 export default function headContact() {
   return (
     <>
@@ -9,8 +10,7 @@ export default function headContact() {
           width: "100%",
           height: "75vh",
           backgroundColor: "rgb(227, 225, 215)",
-        }}
-      >
+        }}>
         <div
           className="div1"
           style={{
@@ -18,9 +18,8 @@ export default function headContact() {
             height: "10%",
             padding: "2%",
             fontFamily: "'Grande', 'sans-serif'",
-          }}
-        >
-          LUXITALIA
+          }}>
+          ReserveSpot
         </div>
         <div
           className="div2"
@@ -36,8 +35,7 @@ export default function headContact() {
             overflow: "hidden",
             wordWrap: "break-word",
             boxSizing: "border-box",
-          }}
-        >
+          }}>
           <h1 style={{ fontSize: "2em" }}>
             <AnimatedText text="Contact" />
           </h1>

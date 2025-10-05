@@ -69,8 +69,7 @@ export default function RightSideNavbar() {
               width: "15%",
               height: "8%",
             }}
-            to="/"
-          >
+            to="/">
             MENU
           </Link>
         </section>
@@ -78,8 +77,7 @@ export default function RightSideNavbar() {
           style={{
             padding: "0vw 0vh",
             margin: "0vw 0vh",
-          }}
-        >
+          }}>
           <div
             className="bodysubdiv"
             style={{
@@ -93,8 +91,7 @@ export default function RightSideNavbar() {
               gap: "2vh",
               fontSize: "1vw",
               marginTop: "5vh",
-            }}
-          >
+            }}>
             <NavLink to="/mhome" style={ButtenStyling}>
               HOME
             </NavLink>
@@ -141,8 +138,7 @@ export default function RightSideNavbar() {
 
             if (img) img.style.transform = "scale(1)";
             if (underline) underline.style.width = "0%";
-          }}
-        >
+          }}>
           <div style={{ width: "75px", height: "75px" }}>
             <img
               src={logo}
@@ -162,8 +158,7 @@ export default function RightSideNavbar() {
                 color: "white",
                 fontSize: "0.75vw",
                 position: "relative",
-              }}
-            >
+              }}>
               CONTACT US: {des1.mobile}
               <span
                 className="underline"
@@ -175,8 +170,7 @@ export default function RightSideNavbar() {
                   width: "0%",
                   backgroundColor: "white",
                   transition: "width 0.3s ease",
-                }}
-              ></span>
+                }}></span>
             </strong>
           </div>
         </div>
@@ -187,8 +181,7 @@ export default function RightSideNavbar() {
           position: "absolute",
           bottom: "14%",
           width: "100%",
-        }}
-      >
+        }}>
         <div className="futterdiv">
           <div
             className="subdiv"
@@ -199,19 +192,17 @@ export default function RightSideNavbar() {
               alignItems: "end",
               margin: "0vw 0vh",
               padding: "0vw 0vh",
-            }}
-          >
+            }}>
             <div>
               <p
                 style={{
                   fontSize: "0.8vw",
                   color: "white",
                   position: "absolute",
-                }}
-              >
+                }}>
                 <Link to="/reel" style={{ color: "white" }}>
                   {" "}
-                  <span>▶</span>VIEW LUXITALIA SHOWREEL
+                  <span>▶</span>VIEW ReserveSpot SHOWREEL
                 </Link>
               </p>
             </div>
